@@ -1,0 +1,50 @@
+.box{width:300px; height:500px; border:1px solid #000;}
+
+.p-tree {
+    width: 250px;
+    height: 300px;
+    background: url(../images/order-by-time-desc.png);
+    resize: both;
+    overflow: auto;
+    padding: 20px;   
+}
+ 
+.p-tree i {
+    display: block;
+    font-style: normal;
+    cursor: pointer;
+    color: black;
+    position: relative;
+    padding-left:20px;
+    span{
+        display:block;
+        height:28px;
+        line-height:28px;
+        margin-left:-20px;
+        padding-left:20px;
+    }
+}
+ 
+.p-tree i.selected {
+    color: red;
+}
+ 
+.p-tree span.checked{background-color:#0f0;}
+
+li{
+    list-style:none;
+    p{
+        height:28px;
+        width:100px;
+        line-height:28px;
+    }
+    &.checked{
+        background-color:#00f;
+    }
+}
+.second-list{
+    margin-left:-40px;
+    p{
+        padding-left:30px;
+    }
+}
